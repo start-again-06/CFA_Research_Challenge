@@ -108,12 +108,12 @@ The repository is organized to clearly separate *research experimentation* from 
 
 CFA_Research_Challenge
 
-notebooks
+    notebooks
     exploratory financial analysis
     valuation experiments
     research prototypes
 
-src
+    src
     data_pipeline
         financial data ingestion
         preprocessing and feature engineering
