@@ -173,3 +173,131 @@ Risk modules estimate *volatility, downside risk, and risk-adjusted performance 
 ### 8. Investment Assessment
 The final stage integrates *valuation outputs and risk metrics* to produce an overall *investment assessment*, supporting data-driven equity research conclusions.
 
+
+```mermaid
+flowchart LR
+
+A[Financial Data Collection]
+
+A --> B[Financial Statement Analysis]
+
+B --> C[Financial Forecasting]
+
+C --> D[Free Cash Flow Estimation]
+
+D --> E[Discounted Cash Flow Valuation]
+
+B --> F[Comparable Company Analysis]
+
+E --> G[Intrinsic Value Estimate]
+
+F --> G
+
+G --> H[Risk Evaluation]
+
+H --> I[Investment Recommendation]
+```
+
+## Mathematical Foundations
+
+The valuation and quantitative models implemented in this repository are grounded in *established financial theory*.
+
+---
+
+### Asset Returns
+
+Asset returns are calculated using the standard *price return formulation*.
+
+$$
+\begin{aligned}
+R_t &= \frac{P_t - P_{t-1}}{P_{t-1}}
+\end{aligned}
+$$
+
+where:
+
+- \(P_t\) : asset price at time \(t\)
+
+---
+
+### Free Cash Flow to the Firm (FCFF)
+
+Free Cash Flow to the Firm represents the *cash available to all providers of capital*.
+
+$$
+\begin{aligned}
+FCFF &= EBIT(1 - T) \\
+     &\quad + Depreciation \\
+     &\quad - CapEx \\
+     &\quad - \Delta WC
+\end{aligned}
+$$
+
+where:
+
+- *EBIT* : Earnings before interest and taxes  
+- *T* : Corporate tax rate  
+- *CapEx* : Capital expenditures  
+- *ΔWC* : Change in working capital  
+
+---
+
+### Discounted Cash Flow (DCF) Valuation
+
+The *enterprise value of a firm* is estimated as the present value of projected free cash flows.
+
+$$
+\begin{aligned}
+EV &= \sum_{t=1}^{n} \frac{FCFF_t}{(1 + WACC)^t}
+     + \frac{TV}{(1 + WACC)^n}
+\end{aligned}
+$$
+
+where:
+
+- *WACC* : Weighted Average Cost of Capital  
+- *TV* : Terminal Value  
+- *n* : Forecast horizon  
+
+---
+
+### Portfolio Risk
+
+Portfolio variance is computed using the *covariance matrix of asset returns*.
+
+$$
+\begin{aligned}
+\sigma_p^2 &= w^{T}\Sigma w
+\end{aligned}
+$$
+
+where:
+
+- *w* : vector of portfolio weights  
+- *Σ* : covariance matrix of asset returns  
+
+---
+
+## Applications
+
+The framework developed in this repository can be applied to several financial analysis tasks, including:
+
+- Equity research modeling  
+- Corporate valuation analysis  
+- Portfolio construction and optimization  
+- Quantitative finance experimentation  
+
+It can also serve as a *practical tool for preparing for investment competitions* such as the *CFA Institute Research Challenge*.
+
+---
+
+## Future Extensions
+
+The platform can be further expanded to include:
+
+- *Monte Carlo valuation simulations*
+- *Macroeconomic factor modeling*
+- *Reinforcement learning trading systems*
+- *Automated equity research report generation*
+
+These extensions would transform the repository into a *comprehensive quantitative investment research platform* capable of supporting advanced financial modeling and investment strategy development.
