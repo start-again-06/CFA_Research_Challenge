@@ -16,7 +16,7 @@ The platform follows the analytical process typically used by *equity research a
 
 ## Project Objective
 
-Professional investment research relies on *structured financial analysis combined with rigorous valuation models*. This repository demonstrates how the traditional equity research workflow can be **implemented programmatically using Python**.
+Professional investment research relies on *structured financial analysis combined with rigorous valuation models*. This repository demonstrates how the traditional equity research workflow can be *implemented programmatically using Python*.
 
 The system allows analysts to transform *raw financial data into investment insights* through a modular architecture that includes:
 
