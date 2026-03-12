@@ -1,19 +1,17 @@
-valuation:
+company:
+  name: Sample Corp
+  industry: Technology
 
-  risk_free_rate: 0.04
-  market_return: 0.09
+valuation:
+  wacc: 0.09
   terminal_growth: 0.025
 
 forecast:
+  years: 5
+  revenue_growth: 0.10
 
-  revenue_growth:
-    - 0.08
-    - 0.07
-    - 0.06
-    - 0.05
-    - 0.04
+risk:
+  monte_carlo_simulations: 10000
 
-monte_carlo:
-
-  simulations: 10000
-  volatility: 0.10
+output:
+  report_file: research_report.pdf
