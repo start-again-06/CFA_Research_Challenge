@@ -97,16 +97,16 @@ G --> H[Intrinsic Share Price]
 
 Free Cash Flow to the Firm represents the cash available to all capital providers.
 
-\[
+$$
 FCFF = EBIT(1 - T) + Depreciation - CapEx - \Delta WC
-\]
+$$
 
 Where:
 
-- \(EBIT\) = earnings before interest and taxes  
-- \(T\) = corporate tax rate  
-- \(CapEx\) = capital expenditures  
-- \(\Delta WC\) = change in working capital  
+- $EBIT$ = earnings before interest and taxes  
+- $T$ = corporate tax rate  
+- $CapEx$ = capital expenditures  
+- $\Delta WC$ = change in working capital  
 
 ---
 
@@ -114,31 +114,31 @@ Where:
 
 The enterprise value of the firm is calculated as the present value of projected free cash flows.
 
-\[
+$$
 EV = \sum_{t=1}^{n} \frac{FCFF_t}{(1 + WACC)^t} + \frac{TV}{(1 + WACC)^n}
-\]
+$$
 
 Where:
 
-- \(EV\) = enterprise value  
-- \(FCFF_t\) = free cash flow in year \(t\)  
-- \(WACC\) = weighted average cost of capital  
-- \(TV\) = terminal value  
+- $EV$ = enterprise value  
+- $FCFF_t$ = free cash flow in year $t$  
+- $WACC$ = weighted average cost of capital  
+- $TV$ = terminal value  
 
 ---
 
 ## Weighted Average Cost of Capital
 
-\[
+$$
 WACC = \frac{E}{D + E}R_e + \frac{D}{D + E}R_d (1 - T)
-\]
+$$
 
 Where:
 
-- \(E\) = market value of equity  
-- \(D\) = market value of debt  
-- \(R_e\) = cost of equity  
-- \(R_d\) = cost of debt  
+- $E$ = market value of equity  
+- $D$ = market value of debt  
+- $R_e$ = cost of equity  
+- $R_d$ = cost of debt  
 
 WACC represents the **required return expected by investors**.
 
@@ -148,17 +148,15 @@ WACC represents the **required return expected by investors**.
 
 To capture cash flows beyond the forecast horizon, the **Gordon Growth Model** is used.
 
-\[
+$$
 TV = \frac{FCFF_{n+1}}{WACC - g}
-\]
+$$
 
 Where:
 
-- \(g\) = perpetual growth rate
+- $g$ = perpetual growth rate  
 
 Terminal value typically accounts for a **significant portion of total firm valuation**.
-
----
 
 # Key Objectives of the Notebooks
 
