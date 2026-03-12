@@ -6,7 +6,7 @@ Three-Statement Financial Model for Equity Valuation
 
 # Overview
 
-The *financial_model module* implements the core financial modeling engine used to forecast the future performance of a company.
+The *financial model module* implements the core financial modeling engine used to forecast the future performance of a company.
 
 Financial modeling is a fundamental step in equity valuation, where analysts construct *forecasted financial statements* based on historical data and economic assumptions. 
 
