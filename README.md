@@ -106,7 +106,7 @@ The architecture separates *data processing, financial modeling, valuation, quan
 
 The repository is organized to clearly separate *research experimentation* from *reusable financial modeling code*.
 
-CFA_Research_Challenge
+    CFA_Research_Challenge
 
     notebooks
     exploratory financial analysis
