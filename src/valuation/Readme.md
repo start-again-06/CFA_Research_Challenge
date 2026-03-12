@@ -39,21 +39,22 @@ The valuation workflow follows several steps:
 If the intrinsic value exceeds the market price, the asset may represent an *investment opportunity*.
 
 ---
-
 # Mathematical Formulation
 
 ## Free Cash Flow to Firm (FCFF)
 
 The fundamental cash flow used in valuation is *Free Cash Flow to the Firm*:
 
-$$[\FCFF = EBIT(1 − T) + Depreciation − CapEx − ΔWC}\$$
+$$
+FCFF = EBIT(1 - T) + Depreciation - CapEx - \Delta WC
+$$
 
 Where:
 
-- EBIT = Earnings before interest and taxes  
-- T = corporate tax rate  
-- CapEx = capital expenditures  
-- ΔWC = change in working capital  
+- $EBIT$ = Earnings before interest and taxes  
+- $T$ = corporate tax rate  
+- $CapEx$ = capital expenditures  
+- $\Delta WC$ = change in working capital  
 
 FCFF represents the **cash available to all capital providers**.
 
@@ -63,15 +64,17 @@ FCFF represents the **cash available to all capital providers**.
 
 The enterprise value of the firm is computed as the present value of future FCFF:
 
-EV = Σ ( FCFF_t / (1 + WACC)^t ) + TV / (1 + WACC)^n
+$$
+EV = \sum_{t=1}^{n} \frac{FCFF_t}{(1 + WACC)^t} + \frac{TV}{(1 + WACC)^n}
+$$
 
 Where:
 
-- EV = enterprise value  
-- WACC = weighted average cost of capital  
-- TV = terminal value  
+- $EV$ = enterprise value  
+- $WACC$ = weighted average cost of capital  
+- $TV$ = terminal value  
 
-This represents the *intrinsic value of the firm’s operating assets*.
+This represents the *intrinsic value of the firm's operating assets*.
 
 ---
 
@@ -79,14 +82,16 @@ This represents the *intrinsic value of the firm’s operating assets*.
 
 The discount rate used in the DCF model is the *Weighted Average Cost of Capital*:
 
-WACC = (E / (D + E)) * Re + (D / (D + E)) * Rd * (1 − T)
+$$
+WACC = \frac{E}{D + E} R_e + \frac{D}{D + E} R_d (1 - T)
+$$
 
 Where:
 
-- E = market value of equity  
-- D = market value of debt  
-- Re = cost of equity  
-- Rd = cost of debt  
+- $E$ = market value of equity  
+- $D$ = market value of debt  
+- $R_e$ = cost of equity  
+- $R_d$ = cost of debt  
 
 WACC represents the *required return demanded by investors*.
 
@@ -98,11 +103,13 @@ Because companies operate indefinitely, a terminal value captures cash flows bey
 
 Using the *Gordon Growth Model*:
 
-TV = FCFF_(n+1) / (WACC − g)
+$$
+TV = \frac{FCFF_{n+1}}{WACC - g}
+$$
 
 Where:
 
-- g = perpetual growth rate  
+- $g$ = perpetual growth rate  
 
 Terminal value typically represents a *large portion of total firm value*.
 
@@ -112,18 +119,23 @@ Terminal value typically represents a *large portion of total firm value*.
 
 After computing enterprise value, the equity value is derived as:
 
-Equity Value = Enterprise Value − Net Debt
+$$
+Equity\ Value = Enterprise\ Value - Net\ Debt
+$$
 
 Where:
 
-Net Debt = Total Debt − Cash
+$$
+Net\ Debt = Total\ Debt - Cash
+$$
 
 Finally, the *intrinsic share price* is:
 
-Price = Equity Value / Shares Outstanding
+$$
+Price = \frac{Equity\ Value}{Shares\ Outstanding}
+$$
 
 ---
-
 # Valuation Pipeline
 
 ```mermaid
