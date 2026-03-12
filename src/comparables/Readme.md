@@ -54,23 +54,22 @@ G --> H[Implied Share Price]
 ```
 
 ---
-
 # Mathematical Foundations
 
 ## Enterprise Value
 
 Enterprise value represents the total value of the firm's operating assets.
 
-\[
+$$
 EV = Market\ Cap + Total\ Debt - Cash
-\]
+$$
 
 Where:
 
-- \(EV\) = Enterprise value  
-- Market Cap = market capitalization of equity  
-- Total Debt = short-term + long-term debt  
-- Cash = cash and cash equivalents  
+- $EV$ = enterprise value  
+- $Market\ Cap$ = market capitalization of equity  
+- $Total\ Debt$ = short-term and long-term debt  
+- $Cash$ = cash and cash equivalents  
 
 ---
 
@@ -78,30 +77,30 @@ Where:
 
 One of the most widely used valuation multiples is **EV/EBITDA**.
 
-\[
-EV/EBITDA = \frac{Enterprise\ Value}{EBITDA}
-\]
+$$
+EV/EBITDA = \frac{EV}{EBITDA}
+$$
 
 Where:
 
-- \(EBITDA\) = Earnings Before Interest, Taxes, Depreciation, and Amortization  
+- $EBITDA$ = Earnings Before Interest, Taxes, Depreciation, and Amortization  
 
-This multiple allows comparison between firms with *different capital structures*, since enterprise value incorporates debt while EBITDA excludes financing costs. :contentReference[oaicite:0]{index=0}
+This multiple allows comparison between firms with **different capital structures**, since enterprise value includes debt while EBITDA excludes financing costs.
 
 ---
 
 ## Price-to-Earnings Ratio
 
-Another commonly used valuation metric is the *P/E ratio*.
+Another commonly used valuation metric is the **P/E ratio**.
 
-\[
-P/E = \frac{Price}{Earnings\ Per\ Share}
-\]
+$$
+P/E = \frac{P}{EPS}
+$$
 
 Where:
 
-- \(Price\) = market price per share  
-- \(EPS\) = earnings per share  
+- $P$ = market price per share  
+- $EPS$ = earnings per share  
 
 This multiple reflects how much investors are willing to pay for each unit of earnings.
 
@@ -109,45 +108,45 @@ This multiple reflects how much investors are willing to pay for each unit of ea
 
 ## Enterprise Value from Comparable Multiples
 
-Once the *peer group multiple* is determined, it can be applied to the target company.
+Once the **peer group multiple** is determined, it can be applied to the target company.
 
-\[
+$$
 EV_{target} = Multiple_{industry} \times Metric_{target}
-\]
+$$
 
 Example using EV/EBITDA:
 
-\[
+$$
 EV_{target} = (EV/EBITDA)_{peer} \times EBITDA_{target}
-\]
+$$
 
 ---
 
 ## Equity Value
 
-After estimating enterprise value, the *equity value* is computed as:
+After estimating enterprise value, the **equity value** is computed as:
 
-\[
-Equity\ Value = Enterprise\ Value - Net\ Debt
-\]
+$$
+Equity\ Value = EV - Net\ Debt
+$$
 
 Where:
 
-\[
+$$
 Net\ Debt = Total\ Debt - Cash
-\]
+$$
 
 ---
 
 ## Intrinsic Share Price
 
-Finally, the *implied share price* is calculated as:
+Finally, the **implied share price** is calculated as:
 
-\[
+$$
 Price = \frac{Equity\ Value}{Shares\ Outstanding}
-\]
+$$
 
-This represents the *valuation estimate derived from peer company multiples*.
+This represents the **valuation estimate derived from peer company multiples**.
 
 ---
 
