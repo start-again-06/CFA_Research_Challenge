@@ -46,7 +46,7 @@ If the intrinsic value exceeds the market price, the asset may represent an *inv
 
 The fundamental cash flow used in valuation is *Free Cash Flow to the Firm*:
 
-FCFF = EBIT(1 − T) + Depreciation − CapEx − ΔWC
+$$[\FCFF = EBIT(1 − T) + Depreciation − CapEx − ΔWC}\$$
 
 Where:
 
